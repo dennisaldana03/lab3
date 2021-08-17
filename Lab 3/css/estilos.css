@@ -1,0 +1,101 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.body{
+    background-color: gold;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+    background-color:orangered;
+}
+
+.logo{
+    width: 2.5em;
+    height: auto;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.menu ul li{
+    list-style: none;
+    transition: all 0.5;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: beige;
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 500px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid #fbe68b;
+    margin-right: 20px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tarjeta img {
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: violet;
+    color: white;
+    transition: 540ms;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: purple;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+body:hover {
+    background-color: mediumseagreen;
+    transition: 800ms;
+}
+.tarjeta a:hover {
+    background-color:blue;
+    transition: 500ms;
+}
+.bien{
+    display: flex;
+    justify-content: right;
+}
